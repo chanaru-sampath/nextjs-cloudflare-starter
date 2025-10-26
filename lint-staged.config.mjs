@@ -3,9 +3,9 @@
  * @type {import('lint-staged').Configuration}
  */
 const config = {
-  "*.{js,jsx,ts,tsx}": (stagedFiles) => [
-    `eslint --fix ${stagedFiles.join(" ")}`,
-    `prettier --write ${stagedFiles.join(" ")}`,
+  '*.{js,jsx,ts,tsx}': (stagedFiles) => [
+    `eslint --fix ${stagedFiles.join(' ')}`,
+    `prettier --write ${stagedFiles.join(' ')}`,
   ],
 };
 
